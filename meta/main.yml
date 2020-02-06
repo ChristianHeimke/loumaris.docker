@@ -1,0 +1,10 @@
+galaxy_info:
+  author: Christian Heimke
+  description: small playbook for setting up a default docker env for rancher
+  company: Loumaris UG (haftungsbeschraenkt)
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 2.4
+  galaxy_tags: []
+
+dependencies:
+  - geerlingguy.docker

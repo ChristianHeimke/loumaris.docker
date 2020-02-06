@@ -1,0 +1,7 @@
+---
+- name: install docker
+  include_role:
+    name: geerlingguy.docker
+  vars:
+    docker_edition: 'ce'
+    docker_package: 'docker-{{ docker_edition }}={{ loumaris_default_docker_version }}'
